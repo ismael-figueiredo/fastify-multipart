@@ -2,7 +2,7 @@ import Fastify, { FastifyInstance } from 'fastify';
 import multipart, { MultipartFile } from '@fastify/multipart';
 import { createWriteStream, existsSync, mkdirSync } from 'fs';
 import path from 'path';
-import { FileSaveResult, saveFile } from './src/config/saveFile';
+import { FileSaveResult, saveFile } from './config/saveFile';
 
 
 const fastify: FastifyInstance = Fastify();
