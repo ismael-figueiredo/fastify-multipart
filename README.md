@@ -4,14 +4,14 @@ Exemplo prático de upload de arquivos usando Fastify e @fastify/multipart.
 
 ---
 
-## 🚀 TECNOLOGIAS  
+## TECNOLOGIAS  
 - [Fastify](https://www.fastify.io/)  
 - [@fastify/multipart](https://github.com/fastify/fastify-multipart)  
 - [TypeScript](https://www.typescriptlang.org/)  
 
 ---
 
-## 📂 ESTRUTURA DO PROJETO  
+## ESTRUTURA DO PROJETO  
 
 ```
 fastify-multipart-example/  
@@ -27,7 +27,7 @@ fastify-multipart-example/
 
 ---
 
-## 🚀 COMO USAR  
+## COMO USAR  
 
 ### 1. INSTALAÇÃO  
 Execute no terminal:  
@@ -49,7 +49,7 @@ curl -X POST http://localhost:3000/upload -F "file=@CAMINHO_DO_SEU_ARQUIVO"
 
 ---
 
-## 📡 ENDPOINT  
+## ENDPOINT  
 
 - **Método:** POST  
 - **Rota:** `/upload`  
@@ -66,12 +66,12 @@ curl -X POST http://localhost:3000/upload -F "file=@CAMINHO_DO_SEU_ARQUIVO"
 
 ---
 
-## ⚠️ OBSERVAÇÕES  
+## OBSERVAÇÕES  
 - Nomes de arquivos são gerados com timestamp + UUID para evitar conflitos.  
 - A pasta `uploads/` é criada automaticamente se não existir.  
 - Este projeto é um exemplo educativo. Não utilize em produção sem adaptações.  
 
 ---
 
-## 📜 LICENÇA  
+## LICENÇA  
 MIT License - Disponível gratuitamente para uso e modificação.
